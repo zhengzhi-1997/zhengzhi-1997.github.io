@@ -1,0 +1,48 @@
+# jemdoc: menu{MENU}{index.html}, nofooter  
+==Liu, Yang
+
+~~~
+{}{img_left}{img/202109.jpg}{alt text}{148}{210}{http://ponderly.github.io}
+PhD Candidate,\n 
+[http://iip.ict.ac.cn Key Lab of Intelligent Information Processing of Chinese Academy of Sciences], \n
+[http://www.ict.ac.cn Institute of Computing Technology (ICT)], \n
+[http://www.cas.cn Chinese Academy of Sciences (CAS)], \n
+No. 6 Kexueyuan South Rd. \n
+Haidian Dist., Beijing, China \n 
+E-mail: liuyang17z \[@\] ict \[DOT\] ac \[DOT\] cn
+~~~
+
+== About me
+I am a PhD candidate in the Key Laboratory of Intelligent Information Processing of Chinese Academy of Sciences(CAS), ICT, CAS.
+
+I am fortunate to be supervised by [http://people.ucas.edu.cn/~heqing Prof. Qing He] and co-supervised by [http://aoxaustin.github.io Prof. Xiang Ao]. Here is my [https://scholar.google.com.hk/citations?user=kVoIIXkAAAAJ&hl=zh-CN Google Scholar].
+
+From Feb 2022, I am a visiting scholar in the [https://www.nextcenter.org/ NExT Research Centre], National University of Singapore([https://www.nus.edu.sg/ NUS]), adviced by Prof. [https://www.chuatatseng.com/ Chua Tat-Seng]. Also, I work with Prof. [https://fulifeng.github.io/ Fuli Feng] and Dr. [http://yunshan.me/ Yunshan Ma].
+
+Previously, I received the B.S. degree in Mathematics from Nanjing University ([http://www.nju.edu.cn NJU]) in 2017. 
+
+
+== Research
+My research interests include 
+- Financial Fraud Detection 
+- Graph Representation Learning
+- Spatio-temporal Activity Modeling
+
+[research.html Find out more].
+== Recent Publications 
+
+. *Yang Liu*, Xiang Ao, Fuli Feng, and Qing He. \"UD-GNN: Uncertainty-aware Debiased Training on Semi-Homophilous Graphs\", To appear in Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD), 2022. \[[pub/UDGNN_KDD2022.pdf Paper]\] \[[pub/UDGNN_slides.pdf Slides]\] \[[https://files.atypon.com/acm/5eff5f9771c2c1ec3b237a43320af632 Talk]\]
+. Kuan Li, *Yang Liu*, Xiang Ao, Jianfeng Chi, Jinghua Feng, Hao Yang and Qing He. \"Reliable Representations Make A Stonger Defender: Unsupervised Structure Refinement for Robust GNN\", To appear in Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD), 2022. \[[pub/STABLE_KDD2022.pdf Paper]\]
+. *Yang Liu*, Xiang Ao, Zidi Qin, Jianfeng Chi, Jinghua Feng, Hao Yang and Qing He. \"Pick and Choose: A GNN-based Imbalanced Learning Approach for Fraud Detection\", In Proceedings of the Web Conference (WWW), 2021. \[[pub/PCGNN_WWW2021.pdf Paper]\] \[[https://github.com/PonderLY/PC-GNN Code]\] \[[pub/PCGNN_slides.pdf Slides]\] \[[https://www.youtube.com/watch?v=jdLszHi-3Jo Talk]\] \[[https://dl.acm.org/doi/abs/10.1145/3442381.3449989 ACM]\]
+. *Yang Liu*, Xiang Ao, Qiwei Zhong, Jinghua Feng, Jiayu Tang, and Qing He. \"Alike and Unlike: Resolving Class Imbalance Problem in Financial Credit Risk Assessment\", In Proceedings of the 29th ACM International Conference on Information and Knowledge Management (CIKM), 2020. \[[pub/ADAAR_CIKM2020.pdf Paper]\] \[[pub/ADAAR_slides.pdf Slides]\] \[[https://youtu.be/l8yXj9Yxg0U Talk]\] \[[https://dl.acm.org/doi/10.1145/3340531.3412111 ACM]\]
+. *Yang Liu*, Xiang Ao, Linfeng Dong, Chao Zhang, Jin Wang, and Qing He. \" Spatiotemporal Activity Modeling via Hierarchical Cross-Modal Embedding \", IEEE Transactions on Knowledge and Data Engineering (TKDE), vol. 34, no. 1, pp. 462-474, 1 Jan. 2022, doi: 10.1109/TKDE.2020.2983892. \[[pub/ACTOR_TKDE2022.pdf Paper]\] \[[https://ieeexplore.ieee.org/document/9050875 IEEE]\]
+. Mengda Huang, *Yang Liu*, Xiang Ao, Kuan Li, Jianfeng Chi, Jinghua Feng, Yang Hao and Qing He. \"AUC-oriented Graph Neural Network for Fraud Detection\", In Proceedings of the ACM Web Conference (WWW), Pages 1311–1321, 2022. \[[pub/AOGNN_WWW2022.pdf Paper]\] \[[pub/AOGNN_slides.pdf Slides]\] \[[https://dl.acm.org/doi/10.1145/3485447.3512178 ACM]\]
+. Linfeng Dong, *Yang Liu*, Xiang Ao, Jianfeng Chi, Jinghua Feng, Yang Hao and Qing He. \"Bi-Level Selection via Meta Gradient for Graph-based Fraud Detection\", In Proceedings of the 27th International Conference on Database Systems for Advanced Applications (DASFAA), 2022. \[[pub/BLS_DASFAA2022.pdf Paper]\] \[[pub/BLS_slides.pdf Slides]\] \[[https://link.springer.com/chapter/10.1007/978-3-031-00123-9_31 Springer]\]
+. Xiang Ao, *Yang Liu*, Zidi Qin, Yi Sun and Qing He. \"Temporal High-order Proximity Aware Behavior Analysis on Ethereum \", World Wide Web (WWWJ). \[[pub/THCD_WWWJ2021.pdf Paper]\]
+. Qiwei Zhong, *Yang Liu*, Xiang Ao, Binbin Hu, Jinghua Feng, Jiayu Tang and Qing He. \"Financial Defaulter Detection on Online Credit Payment via Multi-view Attributed Heterogeneous Information Network\", In Proceedings of the Web Conference (WWW), 2020. \[[pub/MAHINDER_WWW2020.pdf Paper]\] \[[pub/MAHINDER_slides.pdf Slides]\] \[[https://youtu.be/h8wdhhuKiR8 Talk]\] \[[https://dl.acm.org/doi/abs/10.1145/3366423.3380159 ACM]\]
+. Xiaoqian Zhu, Xiang Ao, Zidi Qin, Yanpeng Chang, *Yang Liu*, Qing He, Jianping Li. \"Intelligent Financial Fraud Detection Practices in Post-Pandemic Era\". The Innovation, Volume 2, Issue 4, 28 November 2021, 100176. \[[pub/Survey_Innovation2021.pdf Paper]\] \[[http://www.the-innovation.org/issue/20211128/S2666-6758(21)00101-6/ The Innovation]\] \[[https://www.sciencedirect.com/science/article/pii/S2666675821001016?via%3Dihub ScienceDirect]\]
+
+[publications.html Full list of publications].
+\n
+
+
