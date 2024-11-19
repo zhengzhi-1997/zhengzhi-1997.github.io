@@ -1,0 +1,63 @@
+# jemdoc: menu{MENU}{publications.html}, nofooter  
+
+== Full List of Publications 
+
+== Conference Papers
+
+. Kuan Li, Yiwen Chen, *Yang Liu*, Jin Wang, Qing He, Minhao Cheng and Xiang Ao. \n
+  [pub/GOODAT_ICLR2024.pdf Boosting the Adversarial Robustness of Graph Neural Networks: An OOD Perspective] \[[https://github.com/likuanppd/GOOD-AT Code]\] \[[pub/GOODAT_poster.pdf Poster]\]\n
+  In the Twelfth International Conference on Learning Representations (ICLR2024).
+. Guanghui Hu, *Yang Liu*, Qing He and Xiang Ao. \n
+  [pub/F2GNN_ICASSP2024.pdf F2GNN: An Adaptive Filter with Feature Segmentation for Graph-based Fraud Detection] \[[https://github.com/hugh925/F2GNN Code]\] \[[pub/F2GNN_poster.pdf Poster]\]\n
+  In 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP2024).
+. *Yang Liu*, Xiang Ao, Fuli Feng, Yunshan Ma, Kuan Li, Tat-Seng Chua and Qing He. \n
+  [pub/FLOOD_KDD2023.pdf FLOOD: A Flexible Invariant Learning Framework for Out-of-Distribution Generalization on Graphs] \[[pub/FLOOD_slides.pdf Slides]\] \[[https://www.bilibili.com/video/BV18M4y1s7UN/?share_source=copy_web&vd_source=46fea0c86812502b4bd703eca52de309 Talk]\] \[[https://dl.acm.org/doi/10.1145/3580305.3599355 ACM]\] \n
+  In Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, Pages 1548–1558, 2023.
+. Kuan Li, *Yang Liu*, Xiang Ao, Qing He. \n
+  [pub/Revisiting_ICLR2023.pdf Revisiting Graph Adversarial Attack and Defense From a Data Distribution Perspective] \[[https://openreview.net/forum?id=dSYoPjM5J_W OpenReview]\] \n
+  In the Eleventh International Conference on Learning Representations (ICLR), 2023.  
+. *Yang Liu*, Xiang Ao, Fuli Feng, and Qing He. \n
+  [pub/UDGNN_KDD2022.pdf UD-GNN: Uncertainty-aware Debiased Training on Semi-Homophilous Graphs] \[[pub/UDGNN_slides.pdf Slides]\] \[[https://files.atypon.com/acm/5eff5f9771c2c1ec3b237a43320af632 Talk]\] \[[https://dl.acm.org/doi/abs/10.1145/3534678.3539483 ACM]\] \n 
+  Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD), Pages 1131–1140, 2022.
+. Kuan Li, *Yang Liu*, Xiang Ao, Jianfeng Chi, Jinghua Feng, Hao Yang and Qing He. \n
+  [pub/STABLE_KDD2022.pdf Reliable Representations Make A Stonger Defender: Unsupervised Structure Refinement for Robust GNN] \[[https://github.com/likuanppd/STABLE Code]\] \[[pub/STABLE_slides.pdf Slides]\] \[[https://arxiv.org/abs/2207.00012 arXiv]\] \[[https://dl.acm.org/doi/abs/10.1145/3534678.3539484 ACM]\] \n
+  Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD), Pages 925–935, 2022.
+. *Yang Liu*, Xiang Ao, Zidi Qin, Jianfeng Chi, Jinghua Feng, Hao Yang and Qing He. \n
+  [pub/PCGNN_WWW2021.pdf Pick and Choose: A GNN-based Imbalanced Learning Approach for Fraud Detection] \[[https://github.com/PonderLY/PC-GNN Code]\] \[[pub/PCGNN_slides.pdf Slides]\] \[[https://www.youtube.com/watch?v=jdLszHi-3Jo Talk]\] \[[https://dl.acm.org/doi/abs/10.1145/3442381.3449989 ACM]\] \n
+  Proceedings of the Web Conference (WWW), 2021.
+. *Yang Liu*, Xiang Ao, Qiwei Zhong, Jinghua Feng, Jiayu Tang, and Qing He. \n
+  [pub/ADAAR_CIKM2020.pdf Alike and Unlike: Resolving Class Imbalance Problem in Financial Credit Risk Assessment] \[[pub/ADAAR_slides.pdf Slides]\] \[[https://youtu.be/l8yXj9Yxg0U Talk]\] \[[https://dl.acm.org/doi/10.1145/3340531.3412111 ACM]\] \n
+  Proceedings of the 29th ACM International Conference on Information and Knowledge Management (CIKM), 2020.
+. Mengda Huang, *Yang Liu*, Xiang Ao, Kuan Li, Jianfeng Chi, Jinghua Feng, Yang Hao and Qing He. \n
+  [pub/AOGNN_WWW2022.pdf AUC-oriented Graph Neural Network for Fraud Detection] \[[pub/AOGNN_slides.pdf Slides]\] \[[https://dl.acm.org/doi/10.1145/3485447.3512178 ACM]\] \n
+  Proceedings of the ACM Web Conference (WWW), Pages 1311–1321, 2022.  
+. Zidi Qin, *Yang Liu*, Qing He and Xiang Ao. \n
+  [pub/NGS_CIKM2022.pdf Explainable Graph-based Fraud Detection via Neural Meta-graph Search] \[[https://github.com/qzzdd/NGS Code]\] \[[pub/NGS_poster.pdf Poster]\] \[[https://dl.acm.org/doi/abs/10.1145/3511808.3557598 ACM]\] \n 
+  In proceedings of the 31st ACM International Conference on Information and Knowledge Management (CIKM), Pages 4414–4418, 2022.  
+. Linfeng Dong, *Yang Liu*, Xiang Ao, Jianfeng Chi, Jinghua Feng, Yang Hao and Qing He. \n
+  [pub/BLS_DASFAA2022.pdf Bi-Level Selection via Meta Gradient for Graph-based Fraud Detection]  \[[pub/BLS_slides.pdf Slides]\] \[[https://link.springer.com/chapter/10.1007/978-3-031-00123-9_31 Springer]\] \n
+  Proceedings of the 27th International Conference on Database Systems for Advanced Applications (DASFAA), 2022. 
+. Qiwei Zhong, *Yang Liu*, Xiang Ao, Binbin Hu, Jinghua Feng, Jiayu Tang and Qing He. \n
+  [pub/MAHINDER_WWW2020.pdf Financial Defaulter Detection on Online Credit Payment via Multi-view Attributed Heterogeneous Information Network]  \[[pub/MAHINDER_slides.pdf Slides]\] \[[https://youtu.be/h8wdhhuKiR8 Talk]\] \[[https://dl.acm.org/doi/abs/10.1145/3366423.3380159 ACM]\] \n
+  In Proceedings of the Web Conference (WWW), 2020. 
+. Xiang Ao, *Yang Liu*, Zhen Huang, Luo Zuo, and Qing He. \n
+  Free-rider Episode Screening via Dual Partition Model \[[https://arxiv.org/abs/1805.07505v1 arXiv]\] \n
+  Proceedings of the 23rd International Conference on Database Systems for Advanced Applications (DASFAA), 2018. 
+
+
+== Journal Papers
+
+. *Yang Liu*, Xiang Ao, Linfeng Dong, Chao Zhang, Jin Wang, and Qing He. \n
+  [pub/ACTOR_TKDE2022.pdf Spatiotemporal Activity Modeling via Hierarchical Cross-Modal Embedding ] \[[pub/ACTOR_poster.pdf Poster]\] \[[https://ieeexplore.ieee.org/document/9050875 IEEE]\] \n
+  IEEE Transactions on Knowledge and Data Engineering (TKDE), vol. 34, no. 1, pp. 462-474, 1 Jan. 2022, doi: 10.1109/TKDE.2020.2983892. 
+. Xiaoqian Zhu, Xiang Ao, Zidi Qin, Yanpeng Chang, *Yang Liu*, Qing He, Jianping Li. \n
+  [pub/Survey_Innovation2021.pdf Intelligent Financial Fraud Detection Practices in Post-Pandemic Era] \[[http://www.the-innovation.org/issue/20211128/S2666-6758(21)00101-6/ The Innovation]\] \[[https://www.sciencedirect.com/science/article/pii/S2666675821001016?via%3Dihub ScienceDirect]\] \n
+  The Innovation, Volume 2, Issue 4, 28 November 2021, 100176.  
+. Xiang Ao, *Yang Liu*, Zidi Qin, Yi Sun and Qing He. \n
+  [pub/THCD_WWWJ2021.pdf Temporal High-order Proximity Aware Behavior Analysis on Ethereum] \n
+  World Wide Web (WWWJ). 
+. Thapana Boonchoo, Xiang Ao, *Yang Liu*, Weizhong Zhao, Fuzhen Zhuang, and Qing He. \n
+  [pub/GDCF_PR2019.pdf Grid-based DBSCAN: Indexing and inference] \[[ Paper]\] \[[https://www.sciencedirect.com/science/article/pii/S0031320319300500 ScienceDirect]\] \n
+  Pattern Recognition, 2019.
+
+

@@ -1,1012 +1,52 @@
-<!DOCTYPE html>
-
-
-
-<!--mac 上传文件只需要, 1、ftp home.ustc.edu.cn 2、put /Users/zhangle09/Desktop/index.html /public_html/index.html-->
-
-
-
-<html lang="en">
-
-
-
-	<head>
-
-
-
-		<meta charset="UTF-8" />
-
-
-
-		<meta name="keywords" content="Zhi Zheng, Data Mining, Machine Learning" />
-
-
-
-		<meta name=”viewport” content=”width=device-width, initial-scale=1″ />
-
-
-
-		<title>Zhi Zheng's Homepage</title>
-
-
-
-		<link rel="stylesheet" type="text/css" href="css/style.css" />
-
-
-
-	</head>
-
-
-
-	<body>
-
-
-
-		<!-- <div style="display: none;" id="goTopBtn">
-
-
-
-			<img src="./figure/top.png" width="40px;" />
-
-
-
-	   	</div> -->
-
-
-
-	   	<!-- <script type="text/javascript">
-
-
-
-			window.onscroll = function() {
-
-
-
-				var t = document.documentElement.scrollTop || document.body.scrollTop;
-
-
-
-				var div_up = document.getElementById("uptop");
-
-
-
-				t > 300 ? div_up.style.display = "block": div_up.style.display = "none";
-
-
-
-			}
-
-
-
-
-
-
-
-			function scroTop() {
-
-
-
-				document.body.scrollTop = document.documentElement.scrollTop = 0;
-
-
-
-			}
-
-
-
-		</script> -->
-
-
-
-		<!-- <nav class="clearfix">
-
-
-
-			<div class="topNavBar" id="header1" style="display: block;">
-
-
-
-				<ul class="clearfix_ul" style="color: #222; font-size: 16px;">
-
-
-
-					<li>
-
-
-
-						<a class="ml" id="m_home" href="#home">Home</a>
-
-
-
-					</li>
-
-
-
-					<li>
-
-
-
-						<a class="ml" id="m_biography" href="#biography">Biography</a>
-
-
-
-					</li>
-
-					<li>
-
-
-
-						<a class="ml" id="m_internships" href="#internships">Internships</a>
-
-
-
-					</li>
-
-					<li>
-
-
-
-						<a class="ml" id="m_honors" href="#honors">Honors</a>
-
-
-
-					</li>
-
-					<li>
-
-
-
-						<a class="ml" id="m_publications" href="#publications">Publications</a>
-
-
-
-					</li> -->
-
-
-
-					
-
-
-
-					
-
-
-
-				<!-- </ul>
-
-
-
-			</div>
-
-
-
-			<div class="topNavBar" id="header2" style="display: none; margin: auto; width: 50%;">
-
-
-
-				<img src="./figure/me.jpeg" style="width: 30px; float: left; border-radius: 100px;" />
-
-
-
-				<ul class="clearfix_ul" style="line-height: 2; font-size: 16px;">
-
-
-
-					<li>
-
-
-
-						<span style="color: #222;"><b>Zhi Zheng</b></span>
-
-
-
-					</li>
-
-
-
-					<li>
-
-
-
-						<a class="ml" id="m_home_2" href="#home">Home</a>
-
-
-
-					</li>
-
-
-
-					<li>
-
-
-
-						<a class="ml" id="m_biography_2" href="#biography">Biography</a>
-
-
-
-					</li>
-
-					<li>
-
-
-
-						<a class="ml" id="m_internships_2" href="#internships">Internships</a>
-
-
-
-					</li>
-
-					<li>
-
-
-
-						<a class="ml" id="m_honors_2" href="#honors">Honors</a>
-
-
-
-					</li>
-
-
-
-					<li>
-
-
-
-						<a class="ml" id="m_publications_2" href="#publications">Publications</a>
-
-
-
-					</li>
-
-
-
-					
-
-
-
-					
-
-
-
-				</ul>
-
-
-
-			</div>
-
-
-
-		</nav> -->
-
-
-
-		<!-- <script type="text/javascript">
-
-
-
-			function goTopEx() {
-
-
-
-				var obj = document.getElementById("goTopBtn");
-
-
-
-				var header1 = document.getElementById("header1");
-
-
-
-				var header2 = document.getElementById("header2");
-
-
-
-				function getScrollTop() {
-
-
-
-					return document.documentElement.scrollTop + document.body.scrollTop;
-
-
-
-				}
-
-
-
-				function setScrollTop(value) {
-
-
-
-					if (document.documentElement.scrollTop) {
-
-
-
-						document.documentElement.scrollTop = value;
-
-
-
-					} else {
-
-
-
-						document.body.scrollTop = value;
-
-
-
-					}
-
-
-
-				}
-
-
-
-				window.onscroll = function() {
-
-
-
-					getScrollTop() > 100 ? obj.style.display = "": obj.style.display = "none";
-
-
-
-					getScrollTop() > 230 ? header1.style.display = "none": header1.style.display = "";
-
-
-
-					getScrollTop() > 230 ? header2.style.display = "": header2.style.display = "none"; -->
-
-
-
-					<!-- // if (getScrollTop() < 230) { location.hash="home"; }
-
-
-
-					// else if (getScrollTop() >= 230 && getScrollTop() < 400) { location.hash="biography"; }
-
-
-
-					// else if (getScrollTop() >= 412 && getScrollTop() < 460) { location.hash="publications"; }
-
-
-
-					// else if (getScrollTop() >= 460 && getScrollTop() < 815.2000122070312) { location.hash="honors"; }
-
-
-
-					// GetMenuID();
-
-
-
-					// GetMenuID2();
-
-
-
-				} -->
-
-
-
-				<!-- obj.onclick = function() {
-
-
-
-					var goTop = setInterval(scrollMove, 1);
-
-
-
-					function scrollMove() {
-
-
-
-						setScrollTop(getScrollTop() / 1.1);
-
-
-
-						if (getScrollTop() < 1) clearInterval(goTop);
-
-
-
-					}
-
-
-
-					document.body.scrollTop = document.documentElement.scrollTop = 0;
-
-
-
-				}
-
-
-
-			}
-
-
-
-		</script> -->
-
-
-
-		<!-- <script type="text/javascript">goTopEx();</script>
-
-
-
-		<script type="text/javascript">
-
-
-
-			function GetMenuID() {
-
-
-
-				var menuList = ["m_home", "m_biography", "m_internships", "m_honors", "m_publications"];
-
-
-
-				for (m in menuList) {
-
-
-
-					var menuID = menuList[m];
-
-
-
-					var obj = document.getElementById(menuID);
-
-
-
-					obj.style.cssText = "color:#222; border-bottom: none;";
-
-
-
-				}
-
-
-
-				if (window.location.hash) {
-
-
-
-					var menuID = "m_" + window.location.hash.split("#")[1];
-
-
-
-					var obj = document.getElementById(menuID);
-
-
-
-					obj.style.cssText = "color:#337ab7; border-bottom: #337ab7 solid 2px;";
-
-
-
-				} else {
-
-
-
-					var menuID = "m_home";
-
-
-
-					var obj = document.getElementById(menuID);
-
-
-
-					obj.style.cssText = "color:#337ab7; border-bottom: #337ab7 solid 2px;";
-
-
-
-				} -->
-
-
-
-				<!-- // alert(document.documentElement.scrollTop + document.body.scrollTop)
-
-
-
-			}
-
-
-
-			// GetMenuID();
-
-
-
-			function GetMenuID2() {
-
-
-
-				var menuList = ["m_home_2", "m_biography_2", "m_internships_2", "m_honors_2", "m_publications_2"];
-
-
-
-				for (m in menuList) {
-
-
-
-					var menuID = menuList[m];
-
-
-
-					var obj = document.getElementById(menuID);
-
-
-
-					obj.style.cssText = "color:#222; border-bottom: none;";
-
-
-
-				}
-
-
-
-				if (window.location.hash) {
-
-
-
-					var menuID = "m_" + window.location.hash.split("#")[1] + "_2";
-
-
-
-					var obj = document.getElementById(menuID);
-
-
-
-					obj.style.cssText = "color:#337ab7; border-bottom: #337ab7 solid 2px;";
-
-
-
-				} else {
-
-
-
-					var menuID = "m_home_2";
-
-
-
-					var obj = document.getElementById(menuID);
-
-
-
-					obj.style.cssText = "color:#337ab7; border-bottom: #337ab7 solid 2px;";
-
-
-
-				}
-
-
-
-				GetMenuID();
-
-
-
-				// alert(document.documentElement.scrollTop + document.body.scrollTop)
-
-
-
-			}
-
-
-
-			GetMenuID2();
-
-
-
-			// window.addEventListener('hashchange', GetMenuID(),false);
-
-
-
-			window.onhashchange = GetMenuID2;
-
-
-
-		</script> -->
-
-
-
-	<div class="container" id="home">
-
-
-
-			<div class="row" style="width: 80%; margin: auto;">
-
-
-
-				<div class="col-md-1" style="float: left; margin-right: 20px;">
-
-
-
-					<img src="./figure/me.jpeg" class="zhengzhi" style="width: 130px; border-radius: 3px; margin-top: 20px;" />
-
-
-
-				</div>
-
-
-
-				<div class="col-md-2" style="margin-top: 0px;">
-
-
-
-					<br />
-
-
-
-					<span style="font-size: 30px; color: #000;">Zhi Zheng&nbsp;&nbsp;
-
-
-
-						<b style="font-family:KaiTi">郑值</b></span>
-
-
-
-					<br />
-
-
-
-					<br />
-
-
-
-					<span style="font-size: 15pt;">PhD Candidate</span>
-
-
-
-					<br />
-
-
-
-					<a href="https://bigdata.ustc.edu.cn/" target="_blank">Anhui Province Key Laboratory of Big Data Analysis and Application,</a>
-
-
-
-					<br />
-
-
-
-					<a href="https://sds.ustc.edu.cn/" target="_blank">School of Data Science,</a>
-
-
-
-					<br />
-
-
-
-					<a href="https://www.ustc.edu.cn/" target="_blank">University of Science and Technology of China (USTC)</a>
-
-
-
-
-
-					<!-- <a href="http://research.baidu.com/" target="_blank">Baidu Research, Baidu Inc</a> 
-
- -->
-
-					<br />
-
-
-
-					<br />
-
-
-
-					<div style="font-size:10.5pt;" id="biography">
-
-
-
-						<b>Email:</b>
-
-
-
-						   &nbsp;<a href="mailto:zhengzhi97@mail.ustc.edu.cn">zhengzhi97@mail.ustc.edu.cn</a><br />
-
-
-
-						<!-- <b>Office:</b>
-
-
-
-						   &nbsp; Baidu Campus, No. 10 Shangdi 10th Street, Haidian District, Beijing, China. -->
-
-
-
-					</div>
-
-
-
-				</div>
-
-
-
-			</div>
-
-
-
-			<hr style="margin-top: 35px; margin-bottom: 30px; border: 0; border-top: 1px solid #e7e7e7;" />
-
-
-
-			<!-- <div id="" class="title">Biography</div>
-
-
-
-			<hr style="margin-top: 20px; border: 0; background: #222;border-top: 1.3px solid #222;" /> -->
-			<div id="Biography" class="title" style="margin-top: 20px; margin-bottom: 20px;">Biography</div>
-
-
-
-			<hr />
-
-
-
-			<div class="row">
-
-
-
-				<div class="content" id="publications">
-
-
-
-					<!-- <p> Le Zhang received his B.E. degree in  <a href="http://ssdut.dlut.edu.cn/" target="_blank">Software Engineering</a> from <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a> in 2016. He is currently working toward his PhD degree in the <a href="http://bigdata.ustc.edu.cn/" target="_blank">Anhui Province Key Laboratory of Big Data Analysis and Application</a>, <a href="https://www.ustc.edu.cn/" target="_blank">University of Science and Technology of China</a>, Hefei, China. His research interests include <b>network embedding</b> and its application in <b>business intelligence</b>. </p> -->
-
-                    <!-- <p>Le Zhang is currently a researcher at <a href="http://research.baidu.com/" target="_blank">Baidu Research, Baidu Inc</a>. He received his B.E. degree in Software Engineering from <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>  in 2016. And he received his Ph.D. degree in Computer Science from <a href="https://www.ustc.edu.cn/" target="_blank">University of Science and Technology of China (USTC)</a> in 2022. His research interests include graph representation learning and its application in business intelligence.</p> -->
-					
-					<!-- <p>Zhi is currently a researcher at <a href="http://research.baidu.com/" target="_blank">Baidu Research, Baidu Inc</a>. He received his B.E. degree in Software Engineering from <a href="https://www.dlut.edu.cn/" target="_blank">Dalian University of Technology</a>  in 2016. And he received his Ph.D. degree in Computer Science from <a href="https://www.ustc.edu.cn/" target="_blank">University of Science and Technology of China (USTC)</a> in 2022. His research interests include graph representation learning and its application in business intelligence.</p> -->
-					<p>I am a PhD candidate in Anhui Province Key Laboratory of Big Data Analysis and Application, School of Data Science, University of Science and Technology of China (USTC).</p>
-					<p>I am fortunate to be supervised by <a href="http://datamining.rutgers.edu/">Prof. Hui Xiong</a> and <a href="http://staff.ustc.edu.cn/~tongxu//">Prof. Tong Xu</a>. Here is my <a href="https://scholar.google.com.hk/citations?user=uoYLG8UAAAAJ&hl=zh-CN">Google Scholar</a>.</p>
-					<p>Previously, I received the B.E. degree in Computer Science from USTC in 2019. </p>
-
-				</div>
-
-
-
-			</div>
-
-			<div id="internships" class="title" style="margin-top: 20px; margin-bottom: 20px;">Internships</div>
-
-
-
-			<hr />
-
-
-
-			<div class="row">
-
-
-
-				<div class="content" id="publications">
-
-
-
-					<ul style="list-style-type: disc;">
-
-
-
-						<ul>
-
-
-
-							<li><b>Research Intern, Iflytek</b>, Hefei, China, Aug. 2018 ~ Jan. 2019 <br /><br /></li>
-
-
-
-							<li><b>Rhino-Bird Research Elite Program, Tencent Jarvis Lab</b>, Beijing, China, Jun. 2021 ~ Jul. 2022 <br /><br /></li>
-
-
-
-							<li><b>Research Intern, Baidu TIC</b>, Beijing, China, Jul. 2022 to Dec. 2022 <br /><br /></li>
-							
-							
-							
-							<li><b>Research Intern, BOSS Zhipin CSL</b>, Beijing, China, Dec. 2022 to Apr. 2024 <br /><br /></li>
-
-
-
-						</ul>
-
-
-
-					</ul>
-
-
-
-				</div>
-
-
-
-			</div>
-
-
-			
-
-
-
-			<div class="row">
-
-
-
-				<div id="honors" class="title" style="margin-top: 20px; margin-bottom: 20px;">Honors</div>
-
-
-
-			<hr />
-
-
-
-			<div class="row">
-
-
-
-				<div class="hornor_list">
-
-
-
-					<ul style="list-style-type: disc;">
-
-
-
-						<!-- <li> -->
-
-
-
-                            <!-- <b>USTC :</b> -->
-
-
-
-                            <ul>
-
-
-
-								<li>2016~2017： 优秀学生奖学金银奖，英才班奖学金</li>
-
-
-
-								<li>2018： 元庆奖学金</li>
-
-
-
-                                <li>2019~2024： 学业奖学金一等</li>
-
-
-
-                                <li>2020： 深交所奖学金，科技战疫-大数据公益挑战赛方案赛道冠军 <a href="http://news.ustc.edu.cn/info/1055/72265.htm">[相关报道]</a></li>                          
-
-
-
-                                <li>2022： 博士国家奖学金，腾讯犀牛鸟精英人才计划奖学金 <a href="https://mp.weixin.qq.com/s/06e7m8twMen9DzrAE0raPA">[相关报道]</a></li>
-
-
-								<li>2024： 校优秀毕业生，环球数码科技奖学金</li>
-
-                            </ul>
-
-
-
-                        <!-- </li> -->
-
-
-
-                        
-
-
-
-					</ul>
-
-
-
-				</div>
-
-
-
-			</div>
-
-
-			<div class="row">
-
-
-
-				<div id="service" class="title" style="margin-top: 20px; margin-bottom: 20px;">Service</div>
-
-
-
-			<hr />
-
-
-
-			<div class="row">
-
-
-
-				<div class="hornor_list">
-
-
-
-					<ul style="list-style-type: disc;">
-
-
-
-						<!-- <li> -->
-
-
-
-                            <!-- <b>USTC :</b> -->
-
-
-
-                            <!-- <ul> -->
-							<ul style="list-style-type: disc;">
-
-
-
-								<li>中国中文信息学会青年工作委员会学生执委会副主任</li>
-
-
-
-								<li>PC Member：WWW，KDD，AAAI，SDM，etc.</li>
-
-
-
-                            </ul>
-
-
-
-                        <!-- </li> -->
-
-
-
-                        
-
-
-
-					</ul>
-
-
-
-				</div>
-
-
-
-			</div>
-
-
-
-		
-
-
-
-			<!-- <hr /> -->
-
-
-
-			<div id="title" class="title" style="margin-top: 30px; margin-bottom: 20px;">Publications<span style="font-size: 15px; color: #666;"></span></div>
-
-
-
-			<hr />
-
-
-
-			<div class="row">
-
-
-
-				<div class="paper_list">
-
-
-
-					<ol  style="list-style-type: decimal;">
-
-
-
-						<b>Conference Papers :</b>
-
-						<li><b>Zhi Zheng</b>†, Zhaopeng Qiu†, Xiao Hu, Likang Wu, Hengshu Zhu*, Hui Xiong*,
-							
-							<b>Generative Job Recommendations with Large Language Model</b>,
-
-							<i>Arxiv</i>.
-							
-							<br/><br/>							
-
-						</li>
-
-						<li>Shengming Zhang, Le Zhang, Jingbo Zhou, <b>Zhi Zheng</b>, Hui Xiong,
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Zhi Zheng</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Menu</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<!-- <div class="menu-item"><a href="research.html">Research</a></div> -->
+<div class="menu-item"><a href="publications.html">Publication</a></div>
+<div class="menu-item"><a href="honors.html">Honors</a></div>
+<div class="menu-item"><a href="service.html">Service</a></div>
+<!-- <div class="menu-category">Usefull links</div>
+<div class="menu-item"><a href="http://jemdoc.jaboc.net/">Jemdoc</a></div> -->
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Zhi Zheng （郑值）</h1>
+</div>
+<table class="imgtable"><tr><td>
+<a href="http://ponderly.github.io"><img src="img/zhengzhi.jpeg" alt="alt text" width="168px" height="210px" /></a>&nbsp;</td>
+<td align="left"><p>Postdoc Researcher<br /> 
+<a href="https://dm.ustc.edu.cn/">State Key Laboratory of Cognitive Intelligence</a>, <br />
+<a href="https://cs.ustc.edu.cn/main.htm">School of Computer Science and Technology</a>, <br />
+<a href="https://www.ustc.edu.cn/">University of Science and Technology of China (USTC)</a>, <br />
+USTC Hi-Tech Zone Camp. <br />
+Shushan Dist., Hefei, Anhui <br /> 
+E-mail: zhengzhi97@mail.ustc.edu.cn</p>
+</td></tr></table>
+<h2>About me</h2>
+<p>Zhi Zheng is an postdoc researcher in the State Key Laboratory of Cognitive Intelligence, School of Computer Science and Technology, USTC, under the supervision of <a href="http://staff.ustc.edu.cn/~cheneh/">Prof. Enhong Chen</a>.</p>
+<p>He received his Ph.D. degree in 2024 from School of Artificial Intelligence and Data Science, USTC, under the supervision of <a href="http://datamining.rutgers.edu/">Prof. Hui Xiong</a> and <a href="http://staff.ustc.edu.cn/~tongxu/">Prof. Tong Xu</a>. Here is his <a href="https://scholar.google.com.hk/citations?user=uoYLG8UAAAAJ">Google Scholar</a>.</p>
+<p>From Jun. 2021 to Jul. 2022, he was a research intern in <a href="https://jarvislab.tencent.com/index-en.html">Tencent Jarvis Lab</a>, under the supervision of <a href="https://scholar.google.com.hk/citations?user=lslB5jkAAAAJ">Dr. Xian Wu</a> and <a href="https://zpqiu.github.io/">Zhaopeng Qiu</a>.</p>
+<p>From Jul. 2022 to Apr. 2024, he was a research intern in <a href="https://zhiku.baidu.com/home">Baidu TIC</a> (Jul. 2022 to Dec. 2022) and <a href="https://csl.zhipin.com/">BOSS Zhipin CSL</a> (Dec. 2022 to Apr. 2024), under the supervision of <a href="https://www.zhuhengshu.com/">Dr. Hengshu Zhu</a>.</p>
+<p>Previously, he received the B.S. degree in Computer Science from USTC in 2019.</p>
+<p>His research interests include Artificial Intelligence and Data Mining, especially Large Language Models and Recommender Systems.</p>
+
+<h2>Selected Publications </h2>
+
+<ol>
+  <b>ConferencePapers :</b>
+						<li>Shengming Zhang, Le Zhang, Jingbo Zhou, <b>Zhi Zheng</b>, Hui Xiong,
 
 							<b>LLM-Eraser: Optimizing Large Language Model Unlearning through Selective Pruning</b>,
 
@@ -1020,7 +60,7 @@
 
 							<b>Granular Entity Mapper: Advancing Fine-grained Multimodal Named Entity Recognition and Grounding</b>,
 
-							<i>In Findings of The 2024 Conference on Empirical Methods in Natural Language Processing </i> <b>(EMNLP'24)</b>, Miami, Florida, USA.
+							<i>In Proceedings of The 2024 Conference on Empirical Methods in Natural Language Processing </i> <b>(EMNLP'24)</b>, Miami, Florida, USA.
 
 							<br /><br /> 
 
@@ -1030,7 +70,7 @@
 
 							<b>Double-Checker: Large Language Model as a Checker for Few-shot Named Entity Recognition</b>,
 
-							<i>In Findings of The 2024 Conference on Empirical Methods in Natural Language Processing </i> <b>(EMNLP'24)</b>, Miami, Florida, USA.
+							<i>In Proceedings of The 2024 Conference on Empirical Methods in Natural Language Processing </i> <b>(EMNLP'24)</b>, Miami, Florida, USA.
 
 							<br /><br /> 
 
@@ -1040,7 +80,7 @@
 
 							<b>Make Large Language Model a Better Ranker</b>,
 
-							<i>In Findings of The 2024 Conference on Empirical Methods in Natural Language Processing </i> <b>(EMNLP'24)</b>, Miami, Florida, USA.
+							<i>In Proceedings of The 2024 Conference on Empirical Methods in Natural Language Processing </i> <b>(EMNLP'24)</b>, Miami, Florida, USA.
 
 							<br /><br /> 
 
@@ -1056,53 +96,20 @@
 
 						</li>
 
-
-						<li>Tong Bao, Tong Xu*, Derong Xu, <b>Zhi Zheng*</b>,
-
-							<b>Modal Complementarity based on Multimodal Large Language Model for Text-based Person Retrieval</b>,
-
-							<i>In Proceedings of The 8th APWeb-WAIM joint international conference on Web and Big Data </i> <b>(APWeb-WAIM'24)</b>, Jinhua, China.
-
-							<br /><br /> 
-
-						</li>
-
-						<li>Che Liu, Tong Xu, Qi Liu, <b>Zhi Zheng*</b>, Jingyu Peng, Enhong Chen*,
-
-							<b>MERGE: Multi-View Relationship Graph Network for Event-Driven Stock Movement Prediction</b>,
-
-							<i>In Proceedings of The 8th APWeb-WAIM joint international conference on Web and Big Data </i> <b>(APWeb-WAIM'24)</b>, Jinhua, China.
-
-							<br /><br /> 
-							
-						</li>
-
 						<li><b>Zhi Zheng</b>, Xiao Hu, Shanshan Gao, Hengshu Zhu*, Hui Xiong*,
-
-
 
 							<b>MIRROR: A Multi-View Reciprocal Recommender System for Online Recruitment</b>,
 
-
-
 							<i>In Proceedings of The 47th International ACM SIGIR Conference on Research and Development in Information Retrieval </i> <b>(SIGIR'24)</b>, Washington D.C., USA.
-
-
 
 							<br /><br /> 
 						</li>
 
 						<li><b>Zhi Zheng</b>, Wenshuo Chao, Zhaopeng Qiu, Hengshu Zhu*, Hui Xiong*,
 
-
-
 							<b>Harnessing Large Language Models for Text-Rich Sequential Recommendation</b>,
 
-
-
 							<i>In Proceedings of The Web Conference 2024 </i> <b>(WWW'24)</b>, Singapore, 2024.
-
-
 
 							<br /><br /> 
 						</li>
@@ -1136,8 +143,6 @@
 
 							<br/><br/>							
 
-
-
 						</li>
 
 						<li><b>Zhi Zheng</b>, Ying Sun, Xin Song, Hengshu Zhu*, Hui Xiong*,
@@ -1149,8 +154,6 @@
 
 							<br/><br/>							
 
-
-
 						</li>
 
 						<li>Xiao Hu, Yuan Cheng, <b>Zhi Zheng</b>, Yue Wang, Xinxin Chi, Hengshu Zhu*,
@@ -1158,53 +161,19 @@
 							
 							<b>BOSS: A Bilateral Occupational-Suitability-Aware Recommender System for Online Recruitment</b>,
 
-
-
 							<i>In Proceedings of the 29th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</i>, <b>(KDD'23)</b>, Long Beach, CA, 2023.
 
-
-
 							<br/><br/>							
-
-
 
 						</li>
 
 						<li>Yejing Wang, Shen Ge, Xiangyu Zhao*, Xian Wu*, Tong Xu, Chen Ma, <b>Zhi Zheng</b>,
 							
-							
 							<b>Doctor Specific Tag Recommendation for Online Medical Record Management</b>,
 
-
-
 							<i>In Proceedings of the 29th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</i>, <b>(KDD'23)</b>, Long Beach, CA, 2023.
-
-
-
 							<br/><br/>							
-
-
-
 						</li>
-
-
-						<li>Cong Wang, <b>Zhi Zheng</b>, Tong Xu*, Zikai Yin, Enhong Chen,
-							
-							
-							<b>Interaction-aware Temporal Prescription Generation via Message Passing Neural Network</b>,
-
-
-
-							<i>In Proceedings of the 2022 CAAI International Conference on Artificial Intelligence</i>, <b>(CICAI'22)</b>, Beijing, China, 2022.
-
-
-
-							<br/><br/>							
-
-
-
-						</li>
-
 
 
 						<li><b>Zhi Zheng</b>, Zhaopeng Qiu, Hui Xiong*, Xian Wu*, Tong Xu*, Xiangyu Zhao, Enhong Chen,
@@ -1253,8 +222,8 @@
 								<a href="http://staff.ustc.edu.cn/~tongxu/Papers/Zhi_WWW21.pdf">[PDF]</a>
   
 								<br /><br /> </li>
-						
-						<b>Journal Papers :</b>
+            
+                <b>Journal Papers :</b>
 
 						<li>Likang Wu†, <b>Zhi Zheng</b>†, Zhaopeng Qiu†, Hao Wang*, Hongchao Gu, Tingjia Shen, Chuan Qin, Chen Zhu, Hengshu Zhu*, Qi Liu, Hui Xiong*, Enhong Chen*,
 							
@@ -1268,73 +237,63 @@
 
 						<li><b>Zhi Zheng</b>, Xiao Hu, Zhaopeng Qiu, Yuan Cheng, Shanshan Gao, Yang Song, Hengshu Zhu*, Hui Xiong*,
 
-
-
 							<b>Bilateral Multi-Behavior Modeling for Reciprocal Recommendation in Online Recruitment</b>,
 
-
-
 							<i>In IEEE Transactions on Knowledge and Data Engineering </i> <b>(TKDE)</b>, 2024.
-
 
 							<br /><br /> </li>
 
 						<li><b>Zhi Zheng</b>, Chao Wang, Tong Xu*, Dazhong Shen, Penggang Qin, Xiangyu Zhao, Baoxing Huai, Xian Wu, Enhong Chen,
 
-
-
 							<b>Interaction-aware Drug Package Recommendation via Policy Gradient</b>,
-
-
 
 							<i>In ACM Transactions on Information Systems </i> <b>(TOIS)</b>, 2022.
 							<a href="https://github.com/zhengzhi-1997/Drug_Package_Generation">[Code]</a>
 
 
 							<br /><br /> </li>
-						
-						<li><b>Zhi Zheng</b>, Tong Xu*, Chuan Qin, Xiangwen Liao, Yi Zheng, Tongzhu Liu, Guixian Tong,
 
-
-
-								<b>Multi-source Contextual Collaborative Recommendation for Medicine</b>,
-	
-	
-	
-								<i>In Journal of Computer Research and Development (in Chinese) </i>, 2020, 57(8), 1741-1754.
-
-								<a href="http://staff.ustc.edu.cn/~tongxu/Papers/Zhi_JCRD20.pdf">[PDF]</a>
-	
-	
-								<br /><br /> </li>
-
-
-
-					</ol>
-
-
-
-				</div>
-
-
-
-			</div>
-
-
-
-			
-
-
-
-		</div>
-
-
-
-	</body>
-
-
-
+              </ol>
+<p><a href="publications.html">Full list of publications</a>.
+<br /></p>
+<!-- <h2>Service</h2>
+<p>Program Committee Member</p>
+<ul>
+<li><p>KDD 2023, 2022</p>
+</li>
+<li><p>WWW 2024</p>
+</li>
+<li><p>IJCAI 2024</p>
+</li>
+<li><p>AAAI 2024, 2023, 2022</p>
+</li>
+<li><p>NeurIPS 2023</p>
+</li>
+<li><p>ICLR 2024</p>
+</li>
+<li><p>SDM 2024</p>
+</li>
+<li><p>ECML-PKDD 2023</p>
+</li>
+<li><p>LOG 2023</p>
+</li>
+</ul>
+<p>Journal Reviewer</p>
+<ul>
+<li><p>ACM Computing Survey</p>
+</li>
+<li><p>IEEE Transactions on Knowledge and Data Engineering (TKDE)</p>
+</li>
+<li><p>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</p>
+</li>
+<li><p>Pattern Recognition </p>
+</li>
+<li><p>Neural Networks
+</p>
+</li> -->
+</ul>
+</td>
+</tr>
+</table>
+</body>
 </html>
-
-
-

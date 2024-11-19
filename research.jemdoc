@@ -1,0 +1,21 @@
+# jemdoc: menu{MENU}{research.html}, nofooter  
+==Research Projects
+
+== Financial Fraud Detection
+
+As defined by Black’s Law Dictionary, fraud refers to a knowing misrepresentation of the truth or concealment of a material fact to induce another to act to his or her detriment. The classification of financial fraud has not reached a consensus because the types of financial fraud are varied and mounting. We construct a financial fraud classification framework according to the major financial institution involved, as depicted in the following figure.
+
+~~~
+{}{img_left}{img/fraudtype.png}{alt text}{1028}{528}{http://www.the-innovation.org/issue/20211128/S2666-6758(21)00101-6/}
+~~~
+
+We identify the key challenge in financial fraud detection as the imbalanced learning problem on graphs and provide several solutions for this problem, namely re-sampling based method [https://dl.acm.org/doi/abs/10.1145/3442381.3449989 PC-GNN], metric optimization method [https://dl.acm.org/doi/10.1145/3485447.3512178 AO-GNN], re-weighting based method [https://link.springer.com/chapter/10.1007/978-3-031-00123-9_31 BLS]. The details of these models can be found in the following references.
+
+==  Reference
+
+. *Yang Liu*, Xiang Ao, Zidi Qin, Jianfeng Chi, Jinghua Feng, Hao Yang and Qing He. \"Pick and Choose: A GNN-based Imbalanced Learning Approach for Fraud Detection\", In Proceedings of the Web Conference (WWW), 2021. \[[pub/PCGNN_WWW2021.pdf Paper]\] \[[https://github.com/PonderLY/PC-GNN Code]\] \[[pub/PCGNN_slides.pdf Slides]\] \[[https://www.youtube.com/watch?v=jdLszHi-3Jo Talk]\] \[[https://dl.acm.org/doi/abs/10.1145/3442381.3449989 ACM]\]
+. Mengda Huang, *Yang Liu*, Xiang Ao, Kuan Li, Jianfeng Chi, Jinghua Feng, Yang Hao and Qing He. \"AUC-oriented Graph Neural Network for Fraud Detection\", In Proceedings of the ACM Web Conference (WWW), Pages 1311–1321, 2022. \[[pub/AOGNN_WWW2022.pdf Paper]\] \[[pub/AOGNN_slides.pdf Slides]\] \[[https://dl.acm.org/doi/10.1145/3485447.3512178 ACM]\]
+. Linfeng Dong, *Yang Liu*, Xiang Ao, Jianfeng Chi, Jinghua Feng, Yang Hao and Qing He. \"Bi-Level Selection via Meta Gradient for Graph-based Fraud Detection\", In Proceedings of the 27th International Conference on Database Systems for Advanced Applications (DASFAA), 2022. \[[pub/BLS_DASFAA2022.pdf Paper]\] \[[pub/BLS_slides.pdf Slides]\] \[[https://link.springer.com/chapter/10.1007/978-3-031-00123-9_31 Springer]\]
+. Qiwei Zhong, *Yang Liu*, Xiang Ao, Binbin Hu, Jinghua Feng, Jiayu Tang and Qing He. \"Financial Defaulter Detection on Online Credit Payment via Multi-view Attributed Heterogeneous Information Network\", In Proceedings of the Web Conference (WWW), 2020. \[[pub/MAHINDER_WWW2020.pdf Paper]\] \[[pub/MAHINDER_slides.pdf Slides]\] \[[https://youtu.be/h8wdhhuKiR8 Talk]\] \[[https://dl.acm.org/doi/abs/10.1145/3366423.3380159 ACM]\]
+. Xiaoqian Zhu, Xiang Ao, Zidi Qin, Yanpeng Chang, *Yang Liu*, Qing He, Jianping Li. \"Intelligent Financial Fraud Detection Practices in Post-Pandemic Era\". The Innovation, Volume 2, Issue 4, 28 November 2021, 100176. \[[pub/Survey_Innovation2021.pdf Paper]\] \[[http://www.the-innovation.org/issue/20211128/S2666-6758(21)00101-6/ The Innovation]\] \[[https://www.sciencedirect.com/science/article/pii/S2666675821001016?via%3Dihub ScienceDirect]\]
+
